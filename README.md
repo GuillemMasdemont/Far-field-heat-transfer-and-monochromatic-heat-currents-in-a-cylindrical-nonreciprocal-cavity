@@ -15,8 +15,6 @@
 </p>
 
 
-## Introduction 
-
 > **Note:** This is the source code for the paper (published in []).
 [**Read the full paper here**](INSERT_YOUR_DOI_OR_ARXIV_LINK_HERE)
 
@@ -55,26 +53,6 @@ To reproduce the figures and results from the article, follow the steps in the p
 3.  **Analyze Results:** The final cells output the **Heat Rectification Coefficient** and the **Monochromatic Heat Current**, generating the plots shown in the manuscript.
 
 All intermediate data is handled automatically within the notebook workflow.
-
-## Citation
-If you use this code or data in your own research, please cite our paper:
-
-> Guillem Masdemont, Julien Legendre, Georgia Papadakis.  
-> *"Far-field heat transfer and monochromatic heat currents in a cylindrical nonreciprocal cavity"* > [Journal Name/arXiv], [Year]. [DOI Link]
-
-
-**BibTeX:**
-
-> **Note:** This paper is currently under review. The DOI will be updated upon acceptance.
-
-```bibtex
-@article{YourLastName2026,
-  title = {Far-field heat transfer and monochromatic heat currents in a cylindrical nonreciprocal cavity},
-  author = {YourLastName, FirstName and CoAuthor, Name},
-  journal = {Physical Review B},
-  year = {2026},
-  doi = {}
-}
 
 
 
