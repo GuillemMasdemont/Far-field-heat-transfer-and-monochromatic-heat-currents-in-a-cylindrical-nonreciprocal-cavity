@@ -15,16 +15,21 @@
 </p>
 
 
+## Abstract
+
+> **Note:** This is the source code for the paper (published in [Jornal and Arxiv]).
+
+We investigate the consequences of breaking Kirchhoff’s law of thermal radiation in a hollow cylindrical cavity operating in the far-field regime, employing a custom specular ray-tracing algorithm. At thermal equilibrium, we show that the violation of reciprocity leads to nonzero \hl{heat rectification coefficients} between different parts of the cylinder, \hl{which can be tuned for perfect rectification and circulation}, while internal monochromatic currents vanish due to the intrinsic coupling between emission and absorption at specular surfaces. This constraint is lifted under non-equilibrium conditions, where rotational heat fluxes within the cavity can be precisely controlled by an appropriate composition of reciprocal and nonreciprocal materials. These findings open new avenues for thermal management and provide design principles for nonreciprocal photonic devices.
+
+[**Read the full paper here**](INSERT_YOUR_DOI_OR_ARXIV_LINK_HERE)
+
+We recommend running the codes by clicking on the following colab notebook: 
 
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/main/monochromatic_currents/monochromatic_currents.ipynb)
 
-This repository contains the codes, data and plots used for the manuscript titled “Far-field heat transfer and monochromatic heat currents in a cylindrical nonreciprocal cavity” authored by G. Masdemont, J. Legendre and G. T. Papadakis. 
-We divide the repository in two main folders, one for the transmission coefficient computation and the other one for the monochromatic heat currents plots. Each folder, contains it is own set of functions, resumed in the helper folder, which are directly 
-imported in the jupyter .ipynb folder. 
 
-The data used is stored in a parallel folder called data. 
-
-To run the codes create an environment with conda (or venv): 
+Alternatively, for research and experimental purposes, clone the github repository and create an environment with conda (or venv): 
 
 `conda create -n myenv python=3.12`
 
@@ -33,5 +38,6 @@ and install all the dependencies in this environemnt:
 `pip install requirements.txt`
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/main/monochromatic_currents/monochromatic_currents.ipynb)
+
+
 
