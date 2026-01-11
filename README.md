@@ -3,3 +3,5 @@ We divide the repository in two main folders, one for the transmission coefficie
 imported in the jupyter .ipynb folder. 
 
 The data used is stored in a parallel folder called data. 
+
+`git create -n <env_name>`
