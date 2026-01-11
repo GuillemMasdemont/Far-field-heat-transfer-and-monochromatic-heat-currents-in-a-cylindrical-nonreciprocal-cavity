@@ -17,12 +17,10 @@
 
 ## Introduction 
 
-> **Note:** This is the source code for the paper (published in [Jornal and Arxiv]).
+> **Note:** This is the source code for the paper (published in []).
 [**Read the full paper here**](INSERT_YOUR_DOI_OR_ARXIV_LINK_HERE)
 
-
 ## Abstract
-
 
 We investigate the consequences of breaking Kirchhoff’s law of thermal radiation in a hollow cylindrical cavity operating in the far-field regime, employing a custom specular ray-tracing algorithm. At thermal equilibrium, we show that the violation of reciprocity leads to nonzero heat rectification coefficients between different parts of the cylinder, which can be tuned for perfect rectification and circulation, while internal monochromatic currents vanish due to the intrinsic coupling between emission and absorption at specular surfaces. This constraint is lifted under non-equilibrium conditions, where rotational heat fluxes within the cavity can be precisely controlled by an appropriate composition of reciprocal and nonreciprocal materials. These findings open new avenues for thermal management and provide design principles for nonreciprocal photonic devices.
 
@@ -52,26 +50,30 @@ Once your environment is active, install the required libraries:
 ## Workflow & Reproducibility
 To reproduce the figures and results from the article, follow the steps in the provided Jupyter Notebooks:
 
-1.  **Define Parameters:** Set the emission profile (temperature distributions) and material properties in the initial cells.
-2.  **Run the Simulation:** The code calculates the electromagnetic Green's functions for the cylindrical cavity.
-3.  **Analyze Results:** The final cells output the **Transmission Coefficient** $\mathcal{T}(\omega)$ and the **Monochromatic Heat Current** $J(\omega)$, generating the plots shown in the manuscript.
+1.  **Define Parameters:** Set the emission, absorption, and reflection profiles for all the elements of the cylinder. 
+2.  **Run the Simulation:** The notebook runs a specular ray tracing algorithm to compute the transmission coefficient between the elements of the cylinder and the heat currents arising in the far-field regime. 
+3.  **Analyze Results:** The final cells output the **Heat Rectification Coefficient** and the **Monochromatic Heat Current**, generating the plots shown in the manuscript.
 
 All intermediate data is handled automatically within the notebook workflow.
 
 ## Citation
 If you use this code or data in your own research, please cite our paper:
 
-> **Guillem Masdemont**, Julien Legendre, Georgia Papadakis.  
+> Guillem Masdemont, Julien Legendre, Georgia Papadakis.  
 > *"Far-field heat transfer and monochromatic heat currents in a cylindrical nonreciprocal cavity"* > [Journal Name/arXiv], [Year]. [DOI Link]
 
+
 **BibTeX:**
+
+> **Note:** This paper is currently under review. The DOI will be updated upon acceptance.
+
 ```bibtex
 @article{YourLastName2026,
   title = {Far-field heat transfer and monochromatic heat currents in a cylindrical nonreciprocal cavity},
   author = {YourLastName, FirstName and CoAuthor, Name},
   journal = {Physical Review B},
   year = {2026},
-  doi = {10.1103/PhysRevB.XX.XXXXXX}
+  doi = {}
 }
 
 
