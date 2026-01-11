@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Masdemont"
+  given-names: "Guillem"
+- family-names: "Julien"
+  given-names: "Legendre"
+- family-names: "Georgia T."
+  given-names: "Papadakis"
+title: "Far-field heat transfer and monochromatic heat currents in a cylindrical nonreciprocal cavity"
+version: 1.0.0
+date-released: 2026-01-11
+url: "https://github.com/GuillemMasdemont/PRB-Codes.git"
