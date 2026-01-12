@@ -149,7 +149,6 @@ def average_heat_flux_vector_qvect(P, dpi_angles, tol, e, a, R):
     return V / np.pi #normalization agains blackbody. 
 
 
-
 def q_vect_contour(alpha0, phi, theta, tol, e, a, R):
     """
     Given a starting boundary point alpha and a polar direction (phi, theta),
@@ -245,7 +244,11 @@ def average_heat_flux_vector_qvect_contour(alpha, dpi_angles, tol, e, a, R):
     return V / np.pi #Normalization value agains blackbody 
 
 
-#PLOTTER FUNCTION 
+#------------------------------
+#Plotting functions 
+#------------------------------
+
+#fancy plotting parameters 
 params = {'legend.fontsize': 15,
           'legend.loc':'best',
           'figure.figsize': (14,5),
@@ -257,7 +260,12 @@ params = {'legend.fontsize': 15,
          'grid.alpha':0.6}
 pylab.rcParams.update(params)
 
+
+
 def heat_current_vector_field_plotter(dpi_x_values, dpi_y_values, dpi_angles, dpi_alpha_values, tol, e, a, R):
+    """
+    Plots the heat currents vector field from a reflection, absorption and emission profiles. 
+    """
 
     start_time = time.time()
 
@@ -325,5 +333,7 @@ def heat_current_vector_field_plotter(dpi_x_values, dpi_y_values, dpi_angles, dp
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Simulation done in {elapsed_time:.3f} seconds")
+
+    plt.show()
 
     return U,V, U_contour, V_contour 
