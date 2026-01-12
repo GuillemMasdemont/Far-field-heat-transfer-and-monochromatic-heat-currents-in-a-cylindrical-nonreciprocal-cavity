@@ -32,8 +32,8 @@ To reproduce the results and figures presented in the article without installing
 Alternatively, for research and experimental purposes, you can run the code locally. First clone the repository
 
 ```bash
-git clone [https://github.com/GuillemMasdemont/PRB-Codes.git](https://github.com/GuillemMasdemont/PRB-Codes.git)
-cd PRB-Codes
+git clone https://github.com/GuillemMasdemont/Far-field-heat-transfer-and-monochromatic-heat-currents-in-a-cylindrical-nonreciprocal-cavity.git PRB-CylindricalNonreciprocalCodes
+cd PRB-CylindricalNonreciprocalCodes
 ```
 
 and create an environment with conda (or venv):
