@@ -5,7 +5,7 @@
 <p align="center">
   <strong>Authors:</strong> Guillem Masdemont, J. Legendre and G. T. Papadakis
   <br>
-  <em>(To be submitted to Physical Review B)</em>
+  '<em>(To be submitted to Physical Review B ;))</em>'
 </p>
 
 <p align="center">
@@ -15,8 +15,8 @@
 </p>
 
 
-> **Note:** This is the source code for the paper (published in []).
-[**Read the full paper here**](INSERT_YOUR_DOI_OR_ARXIV_LINK_HERE)
+> **Note:** This is the source code for the paper "".
+[**Read the full paper here**](Link)
 
 ## Abstract
 
