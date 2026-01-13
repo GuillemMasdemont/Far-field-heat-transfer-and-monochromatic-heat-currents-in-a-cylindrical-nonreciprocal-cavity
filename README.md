@@ -5,7 +5,6 @@
 <p align="center">
   <strong>Authors:</strong> Guillem Masdemont, J. Legendre and G. T. Papadakis
   <br>
-  '<em>(To be submitted to Physical Review B ;))</em>'
 </p>
 
 <p align="center">
