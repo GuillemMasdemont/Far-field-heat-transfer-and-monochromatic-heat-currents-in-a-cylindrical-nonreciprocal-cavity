@@ -2,6 +2,7 @@ import numpy as np
 import networkx as nx
 import matplotlib.colors as mcolors
 import matplotlib.pyplot as plt
+import math
 
 c = 299792458
 T = 300
@@ -191,7 +192,15 @@ def heat_rectification_coefficient_graph(G_matrix):
 
     edge_labels = {(u, v): f'{d["weight"]:.2f}' for u, v, d in G.edges(data=True)}
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='black', font_size=20)
-    plt.text(-1.2, 1.2, fr"$\zeta = {non_reciprocity_factor(G_matrix):.2f}$", fontsize=25, color='black')
+
+    def first_nonzero_decimals(x, n=1):
+        if x == 0:
+            return 0
+        k = -int(math.floor(math.log10(abs(x))))
+        return round(x, k + n)
+    
+    zeta = first_nonzero_decimals(non_reciprocity_factor(G_matrix), n=1)
+    plt.text(-1.2, 1.2, fr"$\zeta = {zeta}$", fontsize=25, color='black')
 
     plt.title("")  
     ax.axis('off')
