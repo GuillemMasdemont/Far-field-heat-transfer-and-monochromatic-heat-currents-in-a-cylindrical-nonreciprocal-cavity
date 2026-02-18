@@ -1,5 +1,5 @@
 <h1 align="center">
-  Far-field heat transfer and monochromatic heat currents in a cylindrical nonreciprocal cavity
+Far-field heat transfer and monochromatic thermal currents in a cylindrical nonreciprocal cavity
 </h1>
 
 <p align="center">
@@ -14,7 +14,8 @@
 </p>
 
 
-> **Note:** This is the source code for the paper "".
+> **Note:** This is the source code for the paper "Far-field heat transfer and monochromatic thermal currents in a cylindrical
+nonreciprocal cavity", which is currently under review.
 [**Read the full paper here**](Link)
 
 ## Abstract
