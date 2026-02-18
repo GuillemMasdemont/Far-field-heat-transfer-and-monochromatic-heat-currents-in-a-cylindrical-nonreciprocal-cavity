@@ -25,9 +25,16 @@ We investigate the consequences of breaking Kirchhoff’s law of thermal radiati
 
 ## Running codes 
 
-To reproduce the results and figures presented in the article without installing local dependencies, we recommend running the code interactively via Google Colab:
+To reproduce the results and figures presented in the article quickly without installing local dependencies, we recommend running the code interactively via Google Colab:
+
+<i>Simulations on the transmission coefficient:<i> 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/paralleloptimization/Codes/Simulation_transmission_coefficient/notebook_TransmissionSimulation.ipynb)
+
+<i>Simulations on the thermal currents:<i> 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/paralleloptimization/Codes/Simulation_monochromatic_currents/notebook_MonochromaticCurrents.ipynb)
+
 
 Alternatively, for research and experimental purposes, you can run the code locally. First clone the repository
 
