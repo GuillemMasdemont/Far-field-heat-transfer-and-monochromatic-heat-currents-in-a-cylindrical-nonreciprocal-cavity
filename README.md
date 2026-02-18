@@ -20,8 +20,9 @@ nonreciprocal cavity", which is currently **under review**.
 [**Read the paper here**](Link)
 
 ## Abstract
-
+<p align="justify">
 Breaking Kirchhoff’s law of thermal radiation yields new opportunities in one-way radiative thermal transport and circuitry. We investigate its consequences in the far-field regime in cylindrical cavities, by employing a specular ray-tracing algorithm. At thermal equilibrium, we show that violation of Kirchhoff’s law yields non-vanishing heat rectification coefficients within different sections of the cavity, which can be tuned for perfect rectification and circulation, while internal monochromatic currents vanish due to the intrinsic coupling between emission and absorption at specular surfaces. This constraint is lifted under nonequilibrium conditions, where rotational heat fluxes within the cavity can be precisely controlled by appropriately combining reciprocal and nonreciprocal materials. These findings open new avenues for thermal management and provide design principles for nonreciprocal photonic devices.
+</p>
 
 ## Running codes 
 
