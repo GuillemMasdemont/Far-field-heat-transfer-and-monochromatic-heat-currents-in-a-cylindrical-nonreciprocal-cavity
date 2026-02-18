@@ -17,12 +17,11 @@ Far-field heat transfer and monochromatic thermal currents in a cylindrical nonr
 > **Note:** This is the source code for the paper "Far-field heat transfer and monochromatic thermal currents in a cylindrical
 nonreciprocal cavity", which is currently **under review**.
 
-[**Read the full paper here**](Link) (arxiv)
+[**Read the paper here**](Link)
 
 ## Abstract
 
-We investigate the consequences of breaking Kirchhoff’s law of thermal radiation in a hollow cylindrical cavity operating in the far-field regime, employing a custom specular ray-tracing algorithm. At thermal equilibrium, we show that the violation of reciprocity leads to nonzero heat rectification coefficients between different parts of the cylinder, which can be tuned for perfect rectification and circulation, while internal monochromatic currents vanish due to the intrinsic coupling between emission and absorption at specular surfaces. This constraint is lifted under non-equilibrium conditions, where rotational heat fluxes within the cavity can be precisely controlled by an appropriate composition of reciprocal and nonreciprocal materials. These findings open new avenues for thermal management and provide design principles for nonreciprocal photonic devices.
-
+Breaking Kirchhoff’s law of thermal radiation yields new opportunities in one-way radiative thermal transport and circuitry. We investigate its consequences in the far-field regime in cylindrical cavities, by employing a specular ray-tracing algorithm. At thermal equilibrium, we show that violation of Kirchhoff’s law yields non-vanishing heat rectification coefficients within different sections of the cavity, which can be tuned for perfect rectification and circulation, while internal monochromatic currents vanish due to the intrinsic coupling between emission and absorption at specular surfaces. This constraint is lifted under nonequilibrium conditions, where rotational heat fluxes within the cavity can be precisely controlled by appropriately combining reciprocal and nonreciprocal materials. These findings open new avenues for thermal management and provide design principles for nonreciprocal photonic devices.
 
 ## Running codes 
 
@@ -53,11 +52,11 @@ Once your environment is active, install the required libraries:
 `pip install -r requirements.txt`
 
 ## Workflow & Reproducibility
-To reproduce the figures and results from the article, follow the steps in the provided Jupyter Notebooks:
+To reproduce figures and create own results, the pipeline of the notebook is provided by: 
 
-1.  **Define Parameters:** Set the emission, absorption, and reflection profiles for all the elements of the cylinder. 
+1.  **Parameters:** Set the emission, absorption, and reflection profiles for all the elements of the cylinder. 
 2.  **Run the Simulation:** The notebook runs a specular ray tracing algorithm to compute the transmission coefficient between the elements of the cylinder and the heat currents arising in the far-field regime. 
-3.  **Analyze Results:** The final cells output the **Heat Rectification Coefficient** and the **Monochromatic Heat Current**, generating the plots shown in the manuscript.
+3.  **Results:** The final cells output the **Heat Rectification Coefficient** and the **Monochromatic Heat Current**, generating the plots shown in the manuscript.
 
 All intermediate data is handled automatically within the notebook workflow.
 
