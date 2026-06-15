@@ -7,17 +7,11 @@ Far-field heat transfer and monochromatic thermal currents in a cylindrical nonr
   <br>
 </p>
 
-<p align="center">
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-  </a>
-</p>
 
 
-> **Note:** This is the source code for the paper "Far-field heat transfer and monochromatic thermal currents in a cylindrical
-nonreciprocal cavity", which is currently **under review**.
 
-[**Read the paper here**](https://www.google.com/url?q=http://arxiv.org/abs/2602.17313&source=gmail-imap&ust=1772158045000000&usg=AOvVaw0lgf_gVv71xP6J1GxQjknP)
+> This is the source code for the paper ["Far-field heat transfer and monochromatic thermal currents in a cylindrical
+nonreciprocal cavity"](https://urldefense.com/v3/__https://link.aps.org/doi/10.1103/5bbx-qx7v__;!!D9dNQwwGXtA!RQWTBynu0GbsP1j5S2cHsWbeW07IDDoI0t4VXtDEwopylmhWgLO3lvmLf9WJ3UGKKyHExTrHi4yP9HHkiFMDBKJr-wc8wmM$).
 
 ## Abstract
 <p align="justify">
@@ -26,17 +20,13 @@ Breaking Kirchhoff’s law of thermal radiation yields new opportunities in one-
 
 ## Running codes 
 
-To reproduce the results and figures presented in the article quickly without installing local dependencies, we recommend running the code interactively via Google Colab:
+To reproduce the results and figures presented in the article without installing local dependencies, we recommend running the code interactively via Google Colab:
 
-> **Simulations on the transmission coefficient:**
->
-> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/paralleloptimization/Codes/Simulation_transmission_coefficient/notebook_TransmissionSimulation.ipynb)
->
-> **Simulations on the thermal currents:**
->
-> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/paralleloptimization/Codes/Simulation_monochromatic_currents/notebook_MonochromaticCurrents.ipynb)
+> **Simulations on the transmission coefficient:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/paralleloptimization/Codes/Simulation_transmission_coefficient/notebook_TransmissionSimulation.ipynb)
 
-Alternatively, for research and experimental purposes, you can run the code locally. First clone the repository
+> **Simulations on the thermal currents:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GuillemMasdemont/PRB-Codes/blob/paralleloptimization/Codes/Simulation_monochromatic_currents/notebook_MonochromaticCurrents.ipynb)
+
+For research and experimental purposes, you can run the code locally. First clone the repository
 
 ```bash
 git clone https://github.com/GuillemMasdemont/Far-field-heat-transfer-and-monochromatic-heat-currents-in-a-cylindrical-nonreciprocal-cavity.git PRB-CylindricalNonreciprocalCodes
@@ -52,7 +42,7 @@ Once your environment is active, install the required libraries:
 
 `pip install -r requirements.txt`
 
-## Workflow & Reproducibility
+## Workflow and Reproducibility
 To reproduce figures and create own results, the pipeline of the notebook is provided by: 
 
 1.  **Parameters:** Set the emission, absorption, and reflection profiles for all the elements of the cylinder. 
