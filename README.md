@@ -11,7 +11,7 @@ Far-field heat transfer and monochromatic thermal currents in a cylindrical nonr
 
 
 > This is the source code for the paper ["Far-field heat transfer and monochromatic thermal currents in a cylindrical
-nonreciprocal cavity"](https://urldefense.com/v3/__https://link.aps.org/doi/10.1103/5bbx-qx7v__;!!D9dNQwwGXtA!RQWTBynu0GbsP1j5S2cHsWbeW07IDDoI0t4VXtDEwopylmhWgLO3lvmLf9WJ3UGKKyHExTrHi4yP9HHkiFMDBKJr-wc8wmM$).
+nonreciprocal cavity"](https://doi.org/10.1103/5bbx-qx7v).
 
 ## Abstract
 <p align="justify">
@@ -42,7 +42,7 @@ Once your environment is active, install the required libraries:
 
 `pip install -r requirements.txt`
 
-## Workflow and Reproducibility
+## Workflow and reproducibility
 To reproduce figures and create own results, the pipeline of the notebook is provided by: 
 
 1.  **Parameters:** Set the emission, absorption, and reflection profiles for all the elements of the cylinder. 
